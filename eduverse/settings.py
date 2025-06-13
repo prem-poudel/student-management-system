@@ -120,3 +120,9 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# Media files (images, pdf, etc)
+MEDIA_URL = '/media/'
+
+# directory to store media files
+MEDIA_ROOT = BASE_DIR / 'media'
